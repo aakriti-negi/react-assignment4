@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.nav{
+    display: inline-flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 100vw;
+    background-color: black;
+    font-family: 'Satisfy', cursive;
+    font-size: xx-large;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* border: 2px solid black ; */
+}
+
+.item{
+    color: white;
+
+}
+.button{
+    background-color: black;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 80% ;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.button:hover{
+    background-color: gray;
+}
+.button:active {
+    background-color: #00d4fe;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
